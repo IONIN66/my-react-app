@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LifeCycle from './lifecycle.jsx';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           rel="noopener noreferrer"
         >
         </a>
+        <LifeCycle />
       </header>
     </div>
   );
